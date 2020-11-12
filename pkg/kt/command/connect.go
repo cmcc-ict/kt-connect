@@ -106,7 +106,7 @@ func connectToCluster(cli kt.CliInterface, options *options.DaemonOptions) (err 
 	options.RuntimeOptions.Shadow = workload
 	options.RuntimeOptions.SSHCM = sshcm
 
-	cidrs, err := kubernetes.ClusterCrids(options.ConnectOptions.CIDR)
+	cidrs, err := kubernetes.ClusterCrids(options.Namespace, options.ConnectOptions.CIDR)
 	if err != nil {
 		return
 	}
