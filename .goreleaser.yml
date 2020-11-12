@@ -75,7 +75,7 @@ changelog:
     - '^test:'
 release:
   github:
-    owner: alibaba
+    owner: cmcc-ict
     name: kt-connect
   ids:
     - ktctl
