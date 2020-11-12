@@ -2,5 +2,5 @@
 if [ $# -eq 0 ]; then
     echo "useage:kt-run <namespace> <deploy-name> <expose-port>"
 else
-    ktctl  --namespace=$1 --image image.onedev.ict.cmcc:31104/library/kt-connect-shadow:rc11.5  run $2 --expose $3
+    ktctl  --namespace=$1 --image image.onedev.ict.cmcc:31104/library/kt-connect-shadow:rc11.5  run $2 --port $3 --expose 
 fi 
