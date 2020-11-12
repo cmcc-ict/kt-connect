@@ -77,7 +77,7 @@ func NewConnectCommand(streams genericclioptions.IOStreams, version string) *cob
 	// globals options
 	cmd.Flags().StringVarP(&opt.currentNs, "namespace", "n", "", "current namespace")
 	cmd.Flags().BoolVarP(&opt.Debug, "debug", "d", false, "debug mode")
-	cmd.Flags().StringVarP(&opt.Image, "image", "i", "registry.cn-hangzhou.aliyuncs.com/rdc-incubator/kt-connect-shadow", "shadow image")
+	cmd.Flags().StringVarP(&opt.Image, "image", "i", "registry.cn-hangzhou.aliyuncs.com/evlon-incubator/kt-connect-shadow", "shadow image")
 	cmd.Flags().StringVarP(&opt.Labels, "labels", "l", "", "custom labels on shadow pod")
 
 	// method

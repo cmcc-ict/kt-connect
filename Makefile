@@ -1,5 +1,5 @@
 
-PREFIX			  ?= registry.cn-hangzhou.aliyuncs.com/rdc-incubator
+PREFIX			  ?= registry.cn-hangzhou.aliyuncs.com/evlon-incubator
 TAG				  ?= $(shell date +%s)
 SHADOW_IMAGE	  =  kt-connect-shadow
 SHADOW_BASE_IMAGE =  shadow-base

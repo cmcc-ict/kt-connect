@@ -6,7 +6,7 @@ This chapter wiil guide the user how do set up a connection manually.
 
 ```
 $ kubectl run nginx --image=nginx
-$ kubectl run troubleshoot --image=registry.cn-hangzhou.aliyuncs.com/rdc-incubator/kt-connect-shadow:stable
+$ kubectl run troubleshoot --image=registry.cn-hangzhou.aliyuncs.com/evlon-incubator/kt-connect-shadow:stable
 ```
 
 Make sure the troubleshot pod is ready.

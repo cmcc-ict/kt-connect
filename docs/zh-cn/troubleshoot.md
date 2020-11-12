@@ -8,7 +8,7 @@
 
 ```
 $ kubectl run nginx --image=nginx
-$ kubectl run troubleshoot --image=registry.cn-hangzhou.aliyuncs.com/rdc-incubator/kt-connect-shadow:stable
+$ kubectl run troubleshoot --image=registry.cn-hangzhou.aliyuncs.com/evlon-incubator/kt-connect-shadow:stable
 ```
 
 等待troubleshoot容器启动成功

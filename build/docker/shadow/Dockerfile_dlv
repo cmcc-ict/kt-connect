@@ -1,5 +1,5 @@
 FROM golang:1.13
 LABEL MAINTAINER yunlong <zhenmu.zyl@alibaba-inc.com>
 
-FROM registry.cn-hangzhou.aliyuncs.com/rdc-incubator/kt-connect-shadow:latest
+FROM registry.cn-hangzhou.aliyuncs.com/evlon-incubator/kt-connect-shadow:latest
 CMD ["--debug"]

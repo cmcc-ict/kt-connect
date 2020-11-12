@@ -35,5 +35,5 @@ spec:
         kt-component: dns-server
     spec:
       containers:
-      - image: registry.cn-hangzhou.aliyuncs.com/rdc-incubator/kt-connect-shadow:stable
+      - image: registry.cn-hangzhou.aliyuncs.com/evlon-incubator/kt-connect-shadow:stable
         name: dns-server
