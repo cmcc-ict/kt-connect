@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ $# -eq 0 ]; then
+    echo "useage:kt-conn <namespace>"
+else
+    ktctl  --namespace=$1 --image image.onedev.ict.cmcc:31104/library/kt-connect-shadow:rc11.5  connect --cidr 10.233.0.0/18
+fi

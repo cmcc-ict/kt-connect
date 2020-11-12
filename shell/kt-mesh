@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+    echo "useage:kt-mesh <namespace> <deploy-name> <expose-port>"
+else
+    ktctl --image image.onedev.ict.cmcc:31104/library/kt-connect-shadow:rc11.5 --namespace=$1 mesh $2  --expose $3
+fi 
